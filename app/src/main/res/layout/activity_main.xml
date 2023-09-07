@@ -34,7 +34,7 @@
         android:id="@+id/authusinggoogle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login with Google"
+        android:text=" mobile otp"
         android:textStyle="bold" />
 
 </LinearLayout>
