@@ -13,21 +13,28 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:ems="15"/>
+        android:ems="15"
+        android:hint="Email" />
 
     <EditText
         android:id="@+id/passweord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="password"
-        android:ems="15"/>
+        android:ems="15"
+        android:hint="password" />
 
     <Button
         android:id="@+id/butn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/authusinggoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with Google"
         android:textStyle="bold" />
 
 </LinearLayout>
